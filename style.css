@@ -592,6 +592,12 @@ p{
 
 @media (max-width: 1600px){
 
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     .headline{
         padding: 0% 0%;
     }
@@ -653,8 +659,10 @@ p{
 
 @media (max-width: 1200px){
     
-    body{
+    body {
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .cabecalho__conteudo img {
@@ -820,9 +828,10 @@ p{
 
 @media (max-width: 992px){
     
-    body{
+    body {
         background-size: cover;
-        background-position: right;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .cabecalho__conteudo img {
@@ -993,9 +1002,10 @@ p{
 
 @media (max-width: 768px){
     
-    body{
+    body {
         background-size: cover;
-        background-position: right;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .cabecalho__conteudo img {
@@ -1179,9 +1189,10 @@ p{
 
 @media (max-width: 480px){
     
-    body{
+    body {
         background-size: cover;
-        background-position: right;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .cabecalho__conteudo img {
