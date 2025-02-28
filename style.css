@@ -1,0 +1,1405 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: linear-gradient(90deg, #0C0F18, #0D111C);
+    background-image: url(assets/imagens/w14.jpg);
+    background-size: cover;
+    font-family: Archivo Narrow;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+.cabecalho{
+    padding: 2% 15%;
+}
+
+.cabecalho__conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__conteudo img {
+    width: 22%;
+}
+
+.headline{
+    padding: 0% 10%;
+    background: linear-gradient(50deg,#00002E,#00003E);
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.headline__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline__conteudo img {
+    width: 45%;
+}
+
+.headline__texto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 25px;
+}
+
+.headline__texto h1{
+    font-size: 3rem;
+}
+
+.headline__texto p {
+    font-size: 1.1rem;
+}
+
+.headline__texto a{
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(75, 167, 75);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.headline__texto a:hover{
+    transform: scale(1.1);
+}
+
+.dores{
+    padding: 2% 5%;
+}
+
+.dores__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.dores__conteudo__headline{
+    display: flex;
+    padding: 0 10%;
+    text-align: center;
+    gap: 10%;
+}
+
+.dores__conteudo__headline h1{
+    font-size: 2rem;
+}
+
+.container__dores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container__dores__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    gap: 10px;
+    background: linear-gradient(50deg,#00002E,#00003E);
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px red;
+    transition: 0.3s ease;
+}
+
+.container__dores__conteudo:hover{
+    transform: scale(1.03);
+}
+
+.container__dores__conteudo i{
+    font-size: 1.5rem;
+}
+
+.container__dores__conteudo a i{
+    font-size: 1rem;
+}
+
+.servicos{
+    padding: 2% 5%;
+}
+
+.servicos__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.servicos__conteudo__headline{
+    padding: 0% 10%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.container__servicos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container__servicos__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 10px;
+    background: linear-gradient(50deg,#00002E,#00003E);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px white;
+}
+
+.container__servicos__conteudo i{
+    font-size: 3rem;
+}
+
+.container__servicos__conteudo a i{
+    font-size: 1rem;
+}
+
+.beneficios{
+    padding: 0% 8%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#00002E,#00003E,#00002E);
+    border: 2px solid white;
+    border-right: none;
+    border-left: none;
+    gap: 5%;
+}
+
+.beneficios img{
+    width: 37%;
+    border-radius: 10px;
+}
+
+.beneficios__conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0%;
+    gap: 20px;
+    width: 44%;
+}
+
+.beneficios__conteudo h1 {
+    font-size: 3rem;
+}
+
+.beneficios__conteudo h2 {
+    font-size: 1.8rem;
+}
+
+.beneficios__conteudo__texto{
+    background: linear-gradient(50deg,#00002E,#00003E);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px white;
+}
+
+.beneficios__conteudo{
+    padding: 3% 0;
+    align-self: center;
+}
+
+.beneficios__conteudo a{
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(75, 167, 75);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.beneficios__conteudo a:hover{
+    transform: scale(1.1);
+}
+
+.trabalho{
+    padding: 0% 10%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#00002E,#00003E,#00002E);
+    border: 2px solid white;
+    border-right: none;
+    border-left: none;
+    gap: 5%;
+}
+
+.trabalho img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.trabalho__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0%;
+    gap: 20px;
+    width: 100%;
+}
+
+.trabalho__conteudo h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.trabalho__conteudo h2 {
+    font-size: 1.5rem;
+}
+
+.container__trabalho{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trabalho__conteudo__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(50deg,#00002E,#00003E);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px white;
+    width: 40%;
+    transition: 0.3s ease;
+}
+
+.trabalho__conteudo__texto:hover{
+    transform: scale(1.01);
+}
+
+.trabalho__conteudo__button{
+    padding: 2% 0%;
+}
+
+.trabalho__conteudo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(75, 167, 75);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.trabalho__conteudo  a:hover{
+    transform: scale(1.1);
+}
+
+.depoimentos{
+    padding: 3% 10%;
+}
+
+.depoimentos__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.depoimentos__conteudo__titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.depoimentos__conteudo__titulo h1{
+    font-size: 3rem;
+}
+
+.container__depoimentos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    padding: 1%;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color:  #ddd;
+}
+
+.container__depoimentos img {
+    align-self: center;
+    width: 25%; 
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px green;
+    border: 2px solid green;
+}
+
+.sobrenos{
+    padding: 0% 15%;
+    background: linear-gradient(#00002E,#00003E,#00002E);
+    border: 2px solid white;
+    border-right: none;
+    border-left: none;
+}
+
+.sobrenos__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sobrenos__container__imagem{
+    display: flex;
+}
+
+.sobrenos__container__imagem img {
+    width: 400px;
+}
+
+.sobrenos__container__texto{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#00002E,#00003E);
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px white;
+    padding: 2%;
+    width: 50%;
+    gap: 15px;
+}
+
+.texto__titulo h1{
+    font-size: 3rem;
+}
+
+.texto__sobrenos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button__sobrenos{
+    padding: 3% 0%;
+}
+
+.sobrenos__conteudo a{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(75, 167, 75);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.sobrenos__conteudo a:hover{
+    transform: scale(1.1);
+}
+
+.rodape{
+    padding: 2% 15%;
+    backdrop-filter: blur(5px);
+}
+
+.conteudo__rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo__rodape__logo img{
+    width: 300px;
+}
+
+.conteudo__rodape__nav{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.conteudo__rodape__nav li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.conteudo__rodape__nav li a:hover{
+    color:#00003E;
+}
+
+.conteudo__rodape__contato{
+    display: flex;
+    gap: 10px;
+}
+
+.conteudo__rodape__contato i{
+    font-size: 1.5rem;
+}
+
+.conteudo__rodape__contato i:hover{
+    color: #00003E;
+}
+
+.perguntas{
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 5px solid white;
+}
+
+.titulo__perguntas {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.conteudo__perguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__perguntas{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    border-bottom: 1px solid white;
+}
+
+.container__perguntas h2{
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.conteudo__perguntas__pergunta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.conteudo__perguntas__resposta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 1s ease;
+}
+
+.conteudo__perguntas a{
+    padding-top: 3%;
+}
+
+.conteudo__perguntas a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(75, 167, 75);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.conteudo__perguntas a:hover{
+    transform: scale(1.1);
+}
+
+.conteudo__perguntas__resposta p{
+    font-size: 1.2rem;
+}
+
+.container__perguntas.active .conteudo__perguntas__resposta{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.container__perguntas.active i {
+    transform: rotate(180deg);
+}
+
+.container__perguntas i{
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 1600px){
+
+    .headline{
+        padding: 0% 0%;
+    }
+
+    .headline__conteudo img{
+        width: 45%;
+    }
+
+    .headline__texto h1{
+        font-size: 2.8rem;
+    }
+
+    .dores{
+        padding: 2% 0%;
+    }
+
+    .servicos{
+        padding: 2% 0%;
+    }
+
+    .container__servicos{
+        padding: 0% 0%;
+    }
+
+    .container__servicos__conteudo{
+        width: 35%;
+    }
+
+    .beneficios{
+        padding: 0% 0%;
+    }
+
+    .beneficios img {
+        width: 40%;
+    }
+
+    .trabalho{
+        padding: 0% 0%;
+    }
+
+    .depoimentos{
+        padding: 2% 3%;
+    }
+
+    .depoimentos__conteudo__titulo{
+        padding: 0% 16%;
+        text-align: center;
+    }
+
+    .texto__sobrenos a{
+        width: 100%;
+    }
+
+    .perguntas{
+        padding: 2% 0%;
+    }
+
+}
+
+@media (max-width: 1200px){
+    
+    body{
+        background-size: cover;
+    }
+
+    .cabecalho__conteudo img {
+        width: 30%;
+    }
+
+    .headline{
+        padding: 0% 10%;
+    }
+    
+    .headline__conteudo{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    .headline__conteudo img{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .headline__texto{
+        padding-top: 2%;
+        text-align: center;
+        gap: 15px;
+        width: 75%;
+    }
+
+    .headline__texto h1{
+        font-size: 3rem;
+    }
+
+    .dores{
+        padding: 2% 0%;
+    }
+
+    .container__dores__conteudo{
+        width: 40%;
+    }
+    
+    .servicos{
+        padding: 2% 5%;
+    }
+
+    .servicos__conteudo__headline{
+        flex-direction: column;
+        text-align: center;
+        padding: 0% 3%;
+        gap: 15px;
+    }
+
+    .servicos__conteudo__headline h1{
+        font-size: 2rem;
+    }
+
+    .container__servicos{
+        padding: 0% 0%;
+        gap: 25px;
+    }
+
+    .container__servicos__conteudo{
+        width: 45%;
+    }
+
+    .beneficios{
+        padding: 0% 5%;
+        flex-direction: column;
+    }
+
+    .beneficios__conteudo{
+        width: 100%;
+    }
+
+    .beneficios__conteudo h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .beneficios img {
+        width: 40%;
+        align-self: center;
+    }
+    .depoimentos{
+        padding: 2% 0%;
+    }
+    
+    .depoimentos__conteudo{
+        padding: 0% 5%;
+        gap: 15px;
+    }
+
+    .container__depoimentos img{
+        width: 30%;
+    }
+
+    .depoimentos__conteudo__titulo{
+        padding: 0;
+        text-align: center;
+    }
+
+    .depoimentos__conteudo__titulo h1{
+        font-size: 3rem;
+    }
+
+    .sobrenos{
+        padding: 0% 7.5%;
+        padding-top: 5%;
+    }
+    .sobrenos__conteudo{
+        gap: 20px;
+        flex-direction: column-reverse;
+        padding: 0% 10%;
+    }
+
+    .sobrenos__container__imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobrenos__container__imagem img{
+        width: 50%;
+    }
+
+    .sobrenos__container__texto{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .perguntas{
+        padding: 5% 7.5%;
+    }
+
+    .perguntas h2{
+        font-size: 3rem;
+    }
+
+    .container__perguntas{
+        width: 100%;
+    }
+
+    .conteudo__perguntas__pergunta h2{
+        font-size: 1.7rem;
+    }
+
+    .rodape{
+        padding: 5% 5%;
+    }
+
+    .conteudo__rodape{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .conteudo__rodape__nav{
+        display: flex;
+        gap: 10px;
+    }
+
+    .conteudo__rodape__logo img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 992px){
+    
+    body{
+        background-size: cover;
+        background-position: right;
+    }
+
+    .cabecalho__conteudo img {
+        width: 30%;
+    }
+
+    .headline{
+        padding: 0% 10%;
+    }
+    
+    .headline__conteudo{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    .headline__conteudo img{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .headline__texto{
+        padding-top: 2%;
+        text-align: center;
+        gap: 15px;
+        width: 75%;
+    }
+
+    .headline__texto h1{
+        font-size: 3rem;
+    }
+
+    .dores{
+        padding: 2% 0%;
+    }
+
+    .container__dores__conteudo{
+        width: 40%;
+    }
+    
+    .servicos{
+        padding: 2% 5%;
+    }
+
+    .servicos__conteudo__headline{
+        flex-direction: column;
+        text-align: center;
+        padding: 0% 3%;
+        gap: 15px;
+    }
+
+    .servicos__conteudo__headline h1{
+        font-size: 2rem;
+    }
+
+    .container__servicos{
+        padding: 0% 0%;
+        gap: 25px;
+    }
+
+    .container__servicos__conteudo{
+        width: 45%;
+    }
+
+    .beneficios{
+        padding: 0% 5%;
+        flex-direction: column;
+    }
+
+    .beneficios__conteudo{
+        width: 100%;
+    }
+
+    .beneficios__conteudo h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .beneficios img {
+        width: 40%;
+        align-self: center;
+    }
+    .depoimentos{
+        padding: 2% 0%;
+    }
+    
+    .depoimentos__conteudo{
+        padding: 0% 5%;
+        gap: 15px;
+    }
+
+    .container__depoimentos img{
+        width: 30%;
+    }
+
+    .depoimentos__conteudo__titulo{
+        padding: 0;
+        text-align: center;
+    }
+
+    .depoimentos__conteudo__titulo h1{
+        font-size: 3rem;
+    }
+
+    .sobrenos{
+        padding: 0% 7.5%;
+        padding-top: 5%;
+    }
+    .sobrenos__conteudo{
+        gap: 20px;
+        flex-direction: column-reverse;
+        padding: 0% 10%;
+    }
+
+    .sobrenos__container__imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobrenos__container__imagem img{
+        width: 50%;
+    }
+
+    .sobrenos__container__texto{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .a__sobrenos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .perguntas{
+        padding: 5% 7.5%;
+    }
+
+    .perguntas h2{
+        font-size: 3rem;
+    }
+
+    .container__perguntas{
+        width: 100%;
+    }
+
+    .conteudo__perguntas__pergunta h2{
+        font-size: 1.7rem;
+    }
+
+    .rodape{
+        padding: 5% 5%;
+    }
+
+    .conteudo__rodape{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .conteudo__rodape__nav{
+        display: flex;
+        gap: 10px;
+    }
+
+    .conteudo__rodape__logo img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    body{
+        background-size: cover;
+        background-position: right;
+    }
+
+    .cabecalho__conteudo img {
+        width: 50%;
+    }
+
+    .headline{
+        padding: 0% 10%;
+    }
+    
+    .headline__conteudo{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    .headline__conteudo img{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .headline__texto{
+        padding-top: 2%;
+        text-align: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .headline__texto h1{
+        font-size: 3rem;
+    }
+
+    .dores{
+        padding: 2% 2%;
+    }
+
+    .dores__conteudo__headline{
+        padding: 0% 5%;
+    }
+
+    .dores__conteudo__headline h1{
+        font-size: 2rem;
+    }
+
+    .container__dores__conteudo{
+        width: 45%;
+    }
+    
+    .servicos{
+        padding: 5% 2%;
+    }
+
+    .servicos__conteudo__headline{
+        flex-direction: column;
+        text-align: center;
+        padding: 0% 3%;
+        gap: 15px;
+    }
+
+    .servicos__conteudo__headline h1{
+        font-size: 2rem;
+    }
+
+    .container__servicos{
+        padding: 0% 0%;
+        gap: 25px;
+    }
+
+    .container__servicos__conteudo{
+        width: 46%;
+    }
+
+    .beneficios{
+        padding: 2% 5%;
+        flex-direction: column;
+    }
+
+    .beneficios__conteudo{
+        width: 100%;
+    }
+
+    .beneficios__conteudo h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .beneficios img {
+        width: 55%;
+        align-self: center;
+    }
+
+    .trabalho__conteudo__texto{
+        width: 46%;
+    }
+
+    .depoimentos{
+        padding: 2% 0%;
+    }
+    
+    .depoimentos__conteudo{
+        padding: 0% 5%;
+        gap: 15px;
+    }
+
+    .container__depoimentos img{
+        width: 40%;
+    }
+
+    .depoimentos__conteudo__titulo{
+        padding: 0;
+        text-align: center;
+    }
+
+    .depoimentos__conteudo__titulo h1{
+        font-size: 3rem;
+    }
+
+    .sobrenos{
+        padding: 0% 7.5%;
+        padding-top: 5%;
+    }
+    .sobrenos__conteudo{
+        gap: 20px;
+        flex-direction: column-reverse;
+        padding: 0% 10%;
+    }
+
+    .sobrenos__container__imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobrenos__container__imagem img{
+        width: 65%;
+    }
+
+    .sobrenos__container__texto{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .texto__sobrenos a{
+        width: 100%;
+    }
+
+    .perguntas{
+        padding: 5% 8%;
+    }
+
+    .perguntas h2{
+        font-size: 3rem;
+    }
+
+    .container__perguntas{
+        width: 100%;
+    }
+
+    .conteudo__perguntas__pergunta h2{
+        white-space: wrap;
+        font-size: 1.7rem;
+    }
+
+    .rodape{
+        padding: 5% 5%;
+    }
+
+    .conteudo__rodape{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .conteudo__rodape__nav{
+        display: flex;
+        gap: 10px;
+    }
+
+    .conteudo__rodape__logo img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 480px){
+    
+    body{
+        background-size: cover;
+        background-position: right;
+    }
+
+    .cabecalho__conteudo img {
+        width: 80%;
+    }
+
+    .headline{
+        padding: 0% 2.8%;
+    }
+    
+    .headline__conteudo{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .headline__texto a{
+        width: 80%;
+    }
+    
+    .headline__conteudo img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .headline__texto{
+        padding-top: 2%;
+        text-align: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .headline__texto h1{
+        font-size: 2rem;
+    }
+
+    .dores{
+        padding: 3% 2%;
+    }
+
+    .dores__conteudo{
+        gap: 20px;
+    }
+
+    .dores__conteudo__headline{
+        padding: 0% 4%;
+    }
+
+    .dores__conteudo__headline h1{
+        font-size: 1.8rem;
+    }
+
+    .container__dores{
+        padding: 0% 5%;
+    }
+
+    .container__dores__conteudo{
+        width: 100%;
+    }
+    
+    .servicos{
+        padding: 5% 2%;
+    }
+
+    .servicos__conteudo{
+        gap: 25px;
+    }
+
+    .servicos__conteudo__headline{
+        flex-direction: column;
+        text-align: center;
+        padding: 0% 3%;
+        gap: 15px;
+    }
+
+    .servicos__conteudo__headline h1{
+        font-size: 1.8rem;
+    }
+
+    .container__servicos{
+        padding: 0% 5%;
+        gap: 25px;
+    }
+
+    .container__servicos__conteudo{
+        width: 100%;
+    }
+
+    .beneficios{
+        padding: 0% 5%;
+        flex-direction: column;
+    }
+
+    .beneficios__conteudo{
+        width: 100%;
+    }
+
+    .beneficios__conteudo h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .beneficios__conteudo a{
+        width: 100%;
+    }
+
+    .beneficios img {
+        width: 80%;
+        align-self: center;
+    }
+
+    .beneficios__conteudo__texto h2 {
+        font-size: 1.5rem;
+    }
+
+    .trabalho__conteudo header h1{
+        text-align: center;
+    
+        font-size: 1.8rem;
+    }
+
+    .container__trabalho{
+        padding: 0% 5%;
+    }
+
+    .trabalho__conteudo__texto{
+        width: 100%;
+    }
+
+    .depoimentos{
+        padding: 2% 0%;
+    }
+    
+    .depoimentos__conteudo{
+        padding: 0% 3%;
+        gap: 15px;
+    }
+
+    .container__depoimentos img{
+        width: 80%;
+    }
+
+    .depoimentos__conteudo__titulo{
+        padding: 0;
+        text-align: center;
+    }
+
+    .depoimentos__conteudo__titulo h1{
+        font-size: 2rem;
+    }
+
+    .sobrenos{
+        padding: 0% 1%;
+        padding-top: 5%;
+    }
+    .sobrenos__conteudo{
+        gap: 20px;
+        flex-direction: column-reverse;
+        padding: 0% 5%;
+    }
+
+    .sobrenos__container__imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobrenos__container__imagem img{
+        width: 80%;
+    }
+
+    .sobrenos__container__texto{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .sobrenos__container__texto h1{
+        font-size: 2rem;
+    }
+
+    .texto__sobrenos a{
+        width: 100%;
+    }
+
+    .perguntas{
+        padding: 5% 8%;
+    }
+
+    .perguntas h1{
+        font-size: 2rem;
+    }
+
+    .container__perguntas{
+        width: 100%;
+    }
+
+    .conteudo__perguntas__pergunta h2{
+        white-space: wrap;
+        font-size: 1.7rem;
+    }
+
+    .rodape{
+        padding: 5% 5%;
+    }
+
+    .conteudo__rodape{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .conteudo__rodape__nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .conteudo__rodape__logo img {
+        width: 220px;
+    }
+}
+
